@@ -1,0 +1,14 @@
+{
+  "watchlist": [
+    {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": null, "sell_above": null},
+    {"ticker": "TLKM.JK", "name": "Telkom Indonesia", "buy_below": null, "sell_above": null},
+    {"ticker": "AAPL", "name": "Apple Inc.", "buy_below": null, "sell_above": null}
+  ],
+  "thresholds": {
+    "daily_change_pct": 5.0,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "ma_short": 20,
+    "ma_long": 50
+  }
+}
