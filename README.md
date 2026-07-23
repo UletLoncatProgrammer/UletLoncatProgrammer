@@ -1,20 +1,24 @@
 # Stock Alert Automation
 
-Analyzes a watchlist of stocks daily and sends a Telegram alert on price
-targets, volatility spikes, RSI overbought/oversold levels, and
-moving-average crossovers (golden/death cross).
+Analyzes a watchlist of stocks hourly during Jakarta trading hours and
+sends a Telegram alert on price targets, volatility spikes, RSI
+overbought/oversold levels, and moving-average crossovers (golden/death
+cross). Each condition alerts once when it first triggers, then stays
+quiet until it clears and re-triggers later — no repeated pings every
+hour for the same still-active condition.
 
 ## Structure
 
 ```
 your-repo/
 ├── config.json          ← stocks, targets, thresholds
+├── alert_state.json     ← tracks which alerts are already active (dedupe)
 ├── stock_alert.py       ← main script
 ├── telegram_notif.py    ← sends Telegram messages
 ├── requirements.txt     ← Python dependencies
 ├── .github/
 │   └── workflows/
-│       └── alert.yml    ← runs daily automatically
+│       └── alert.yml    ← runs hourly automatically
 └── README.md            ← setup instructions
 ```
 
@@ -52,6 +56,8 @@ python stock_alert.py --config config.json
 
 ## Automation
 
-`.github/workflows/alert.yml` runs the analysis on weekdays at 08:00 UTC
-and can also be triggered manually from the Actions tab
-(`workflow_dispatch`).
+`.github/workflows/alert.yml` runs the analysis every hour from 09:00 to
+16:00 WIB (Jakarta time) on weekdays, and can also be triggered manually
+from the Actions tab (`workflow_dispatch`). After each run it commits
+`alert_state.json` back to the repo if it changed, so dedupe state
+carries over between runs.
