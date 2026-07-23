@@ -10,6 +10,7 @@
     {"ticker": "ASII.JK", "name": "Astra International", "buy_below": null, "sell_above": null},
     {"ticker": "UNVR.JK", "name": "Unilever Indonesia", "buy_below": null, "sell_above": null},
     {"ticker": "ICBP.JK", "name": "Indofood CBP Sukses Makmur", "buy_below": null, "sell_above": null}
+    {"ticker": "TPIA.JK", "name": "Chandra Asri Pacific PT Tbk", "buy_below": null, "sell_above": null}
   ],
   "thresholds": {
     "daily_change_pct": 5.0,
