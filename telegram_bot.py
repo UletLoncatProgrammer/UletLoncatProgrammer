@@ -12,6 +12,7 @@ import requests
 from stock_alert import compute_rsi, fetch_history
 
 MODEL = "claude-sonnet-5"
+BOT_USERNAME = "SahamUletBot"
 
 SYSTEM_PROMPT = (
     "You are a private financial assistant for the user's Indonesian stock watchlist. "
@@ -110,6 +111,20 @@ def send_message(token: str, chat_id: str, text: str) -> None:
     resp.raise_for_status()
 
 
+def is_addressed_to_bot(message: dict) -> bool:
+    if message.get("chat", {}).get("type") == "private":
+        return True
+    text = message.get("text", "")
+    if f"@{BOT_USERNAME}".lower() in text.lower():
+        return True
+    reply = message.get("reply_to_message")
+    return bool(reply and reply.get("from", {}).get("username", "").lower() == BOT_USERNAME.lower())
+
+
+def strip_mention(text: str) -> str:
+    return text.replace(f"@{BOT_USERNAME}", "").strip()
+
+
 def fetch_updates(token: str, offset: int) -> list[dict]:
     resp = requests.get(
         f"https://api.telegram.org/bot{token}/getUpdates",
@@ -149,7 +164,11 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Ignoring message from unauthorized chat {chat_id}")
             continue
 
-        text = message["text"]
+        if not is_addressed_to_bot(message):
+            print("Ignoring message not addressed to the bot")
+            continue
+
+        text = strip_mention(message["text"])
         print(f"Received: {text}")
         reply = ask_claude(client, text)
         print(f"Replying: {reply}")
