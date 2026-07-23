@@ -1,5 +1,5 @@
 {
-  "watchlist": [
+  "stocks": [
     {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": null, "sell_above": null},
     {"ticker": "TLKM.JK", "name": "Telkom Indonesia", "buy_below": null, "sell_above": null},
     {"ticker": "AAPL", "name": "Apple Inc.", "buy_below": null, "sell_above": null}
