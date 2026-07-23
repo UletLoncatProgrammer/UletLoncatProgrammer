@@ -31,6 +31,16 @@ your-repo/
    `AAPL`, `BBCA.JK`, `BTC-USD`) and optional `buy_below` / `sell_above`
    price targets.
 
+## Current watchlist
+
+- `BBCA.JK`, `BBRI.JK`, `AMMN.JK`, `WIIM.JK`, `WIFI.JK` — requested tickers
+- `BMRI.JK`, `TLKM.JK`, `ASII.JK`, `UNVR.JK`, `ICBP.JK` — added as widely
+  cited stable, large-cap IDX picks (banking, telecom, conglomerate,
+  consumer staples) with consistent dividends across market cycles
+
+This is not financial advice — set your own `buy_below`/`sell_above`
+targets and do your own research before investing.
+
 ## Running locally
 
 ```bash

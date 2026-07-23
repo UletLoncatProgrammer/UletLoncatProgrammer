@@ -1,8 +1,15 @@
 {
   "stocks": [
     {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": null, "sell_above": null},
+    {"ticker": "BBRI.JK", "name": "Bank Rakyat Indonesia", "buy_below": null, "sell_above": null},
+    {"ticker": "AMMN.JK", "name": "Amman Mineral Internasional", "buy_below": null, "sell_above": null},
+    {"ticker": "WIIM.JK", "name": "Wismilak Inti Makmur", "buy_below": null, "sell_above": null},
+    {"ticker": "WIFI.JK", "name": "Solusi Sinergi Digital", "buy_below": null, "sell_above": null},
+    {"ticker": "BMRI.JK", "name": "Bank Mandiri", "buy_below": null, "sell_above": null},
     {"ticker": "TLKM.JK", "name": "Telkom Indonesia", "buy_below": null, "sell_above": null},
-    {"ticker": "AAPL", "name": "Apple Inc.", "buy_below": null, "sell_above": null}
+    {"ticker": "ASII.JK", "name": "Astra International", "buy_below": null, "sell_above": null},
+    {"ticker": "UNVR.JK", "name": "Unilever Indonesia", "buy_below": null, "sell_above": null},
+    {"ticker": "ICBP.JK", "name": "Indofood CBP Sukses Makmur", "buy_below": null, "sell_above": null}
   ],
   "thresholds": {
     "daily_change_pct": 5.0,
