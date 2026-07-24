@@ -4,4 +4,6 @@ __pycache__/
 .venv/
 *.egg-info/
 .pytest_cache/
-graphify-out/
+graphify-out/cache/
+graphify-out/.graphify_*
+graphify-out/cost.json
