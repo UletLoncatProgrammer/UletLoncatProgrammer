@@ -18,5 +18,7 @@ def send_message(text: str) -> bool:
         json={"chat_id": chat_id, "text": text},
         timeout=15,
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        print(f"Telegram sendMessage failed ({resp.status_code}): {resp.text}")
+        return False
     return True
