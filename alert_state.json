@@ -2,5 +2,6 @@
   "ASII.JK:golden_cross": true,
   "BBCA.JK:buy_target": true,
   "TPIA.JK:golden_cross": true,
-  "WIIM.JK:volatility": true
+  "TPIA.JK:volatility": true,
+  "WIIM.JK:volatility": false
 }
