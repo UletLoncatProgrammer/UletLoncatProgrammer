@@ -40,6 +40,11 @@ def load_config(path: str) -> tuple[list[Stock], Thresholds]:
  
 def fetch_history(ticker: str) -> pd.DataFrame:
     history = yf.Ticker(ticker).history(period="6mo", interval="1d")
+    # Yahoo Finance sometimes appends a placeholder row for the current date
+    # with all-NaN OHLCV when no trading data exists for it yet (e.g. weekends,
+    # or a session that hasn't closed). Drop any such incomplete trailing rows
+    # so every downstream calculation only ever sees real closes.
+    history = history.dropna(subset=["Close"])
     if history.empty:
         raise ValueError(f"No price data returned for {ticker!r}")
     return history
@@ -71,7 +76,7 @@ def compute_bollinger(close: pd.Series, window: int = 20, num_std: float = 2.0) 
  
  
 def analyze(stock: Stock, history: pd.DataFrame, thresholds: Thresholds) -> tuple[dict, list[tuple[str, str]]]:
-    close = history["Close"]
+    close = history["Close"].dropna()
     ma_short = close.rolling(thresholds.ma_short).mean()
     ma_long = close.rolling(thresholds.ma_long).mean()
     rsi = compute_rsi(close)
@@ -197,3 +202,4 @@ def main(argv: list[str] | None = None) -> int:
  
 if __name__ == "__main__":
     raise SystemExit(main())
+ 
