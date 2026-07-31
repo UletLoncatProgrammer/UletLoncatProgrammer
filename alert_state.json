@@ -1,9 +1,18 @@
 {
+  "ARTO.JK:volatility": true,
   "ASII.JK:golden_cross": false,
   "BBCA.JK:buy_target": false,
   "BBRI.JK:golden_cross": false,
+  "CPIN.JK:sell_target": true,
+  "GOTO.JK:buy_target": true,
+  "GOTO.JK:sell_target": true,
+  "INCO.JK:volatility": true,
+  "JPFA.JK:sell_target": true,
+  "MAPA.JK:volatility": true,
+  "MAPI.JK:volatility": true,
   "TPIA.JK:golden_cross": false,
   "TPIA.JK:volatility": false,
-  "WIIM.JK:golden_cross": false,
+  "WIIM.JK:golden_cross": true,
+  "WIIM.JK:sell_target": true,
   "WIIM.JK:volatility": false
 }
