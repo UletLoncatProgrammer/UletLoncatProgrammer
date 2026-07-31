@@ -1,9 +1,9 @@
 {
   "stocks": [
-    {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": 6300, "sell_above": 10000},
-    {"ticker": "BBRI.JK", "name": "Bank Rakyat Indonesia", "buy_below": 2910, "sell_above": 4500},
+    {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": null, "sell_above": null},
+    {"ticker": "BBRI.JK", "name": "Bank Rakyat Indonesia", "buy_below": null, "sell_above": null},
     {"ticker": "AMMN.JK", "name": "Amman Mineral Internasional", "buy_below": null, "sell_above": null},
-    {"ticker": "WIIM.JK", "name": "Wismilak Inti Makmur", "buy_below": 1580, "sell_above": null},
+    {"ticker": "WIIM.JK", "name": "Wismilak Inti Makmur", "buy_below": null, "sell_above": null},
     {"ticker": "WIFI.JK", "name": "Solusi Sinergi Digital", "buy_below": null, "sell_above": null},
     {"ticker": "BMRI.JK", "name": "Bank Mandiri", "buy_below": null, "sell_above": null},
     {"ticker": "TLKM.JK", "name": "Telkom Indonesia", "buy_below": null, "sell_above": null},
