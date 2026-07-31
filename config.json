@@ -1,19 +1,308 @@
 {
   "stocks": [
-    {"ticker": "BBCA.JK", "name": "Bank Central Asia", "buy_below": 6300, "sell_above": 10000},
-    {"ticker": "BBRI.JK", "name": "Bank Rakyat Indonesia", "buy_below": 2910, "sell_above": 4500},
-    {"ticker": "AMMN.JK", "name": "Amman Mineral Internasional", "buy_below": null, "sell_above": null},
-    {"ticker": "WIIM.JK", "name": "Wismilak Inti Makmur", "buy_below": 1580, "sell_above": null},
-    {"ticker": "WIFI.JK", "name": "Solusi Sinergi Digital", "buy_below": null, "sell_above": null},
-    {"ticker": "BMRI.JK", "name": "Bank Mandiri", "buy_below": null, "sell_above": null},
-    {"ticker": "TLKM.JK", "name": "Telkom Indonesia", "buy_below": null, "sell_above": null},
-    {"ticker": "ASII.JK", "name": "Astra International", "buy_below": null, "sell_above": null},
-    {"ticker": "UNVR.JK", "name": "Unilever Indonesia", "buy_below": null, "sell_above": null},
-    {"ticker": "ICBP.JK", "name": "Indofood CBP Sukses Makmur", "buy_below": null, "sell_above": null},
-    {"ticker": "TPIA.JK", "name": "Chandra Asri Pacific", "buy_below": null, "sell_above": null}
+    {
+      "ticker": "BBCA.JK",
+      "name": "Bank Central Asia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BBRI.JK",
+      "name": "Bank Rakyat Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BMRI.JK",
+      "name": "Bank Mandiri",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BBNI.JK",
+      "name": "Bank Negara Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BBTN.JK",
+      "name": "Bank Tabungan Negara",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BRIS.JK",
+      "name": "Bank Syariah Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ARTO.JK",
+      "name": "Bank Jago",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "NISP.JK",
+      "name": "Bank OCBC NISP",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ICBP.JK",
+      "name": "Indofood CBP Sukses Makmur",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "INDF.JK",
+      "name": "Indofood Sukses Makmur",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "UNVR.JK",
+      "name": "Unilever Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MYOR.JK",
+      "name": "Mayora Indah",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "AMRT.JK",
+      "name": "Sumber Alfaria Trijaya",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ACES.JK",
+      "name": "Aspirasi Hidup Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "SIDO.JK",
+      "name": "Sido Muncul",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "CPIN.JK",
+      "name": "Charoen Pokphand Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "JPFA.JK",
+      "name": "Japfa Comfeed Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "TLKM.JK",
+      "name": "Telkom Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ISAT.JK",
+      "name": "Indosat Ooredoo Hutchison",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "TOWR.JK",
+      "name": "Sarana Menara Nusantara",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "EXCL.JK",
+      "name": "XL Axiata",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "GOTO.JK",
+      "name": "GoTo Gojek Tokopedia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BUKA.JK",
+      "name": "Bukalapak",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "WIFI.JK",
+      "name": "Solusi Sinergi Digital",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ADRO.JK",
+      "name": "Alamtri Resources Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ADMR.JK",
+      "name": "Adaro Minerals Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "PTBA.JK",
+      "name": "Bukit Asam",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ANTM.JK",
+      "name": "Aneka Tambang",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MDKA.JK",
+      "name": "Merdeka Copper Gold",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "AMMN.JK",
+      "name": "Amman Mineral Internasional",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "INCO.JK",
+      "name": "Vale Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ITMG.JK",
+      "name": "Indo Tambangraya Megah",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MEDC.JK",
+      "name": "Medco Energi Internasional",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "PGAS.JK",
+      "name": "Perusahaan Gas Negara",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "AKRA.JK",
+      "name": "AKR Corporindo",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BRPT.JK",
+      "name": "Barito Pacific",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "TPIA.JK",
+      "name": "Chandra Asri Pacific",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BREN.JK",
+      "name": "Barito Renewables Energy",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "CTRA.JK",
+      "name": "Ciputra Development",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "SMRA.JK",
+      "name": "Summarecon Agung",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "PWON.JK",
+      "name": "Pakuwon Jati",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "BSDE.JK",
+      "name": "Bumi Serpong Damai",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "ASII.JK",
+      "name": "Astra International",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "SMGR.JK",
+      "name": "Semen Indonesia",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "UNTR.JK",
+      "name": "United Tractors",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "KLBF.JK",
+      "name": "Kalbe Farma",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MIKA.JK",
+      "name": "Mitra Keluarga Karyasehat",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MAPI.JK",
+      "name": "Mitra Adiperkasa",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "MAPA.JK",
+      "name": "Map Aktif Adiperkasa",
+      "buy_below": null,
+      "sell_above": null
+    },
+    {
+      "ticker": "WIIM.JK",
+      "name": "Wismilak Inti Makmur",
+      "buy_below": null,
+      "sell_above": null
+    }
   ],
   "thresholds": {
-    "daily_change_pct": 5.0,
+    "daily_change_pct": 5,
     "rsi_oversold": 30,
     "rsi_overbought": 70,
     "ma_short": 20,
