@@ -11,7 +11,7 @@
   "INDF.JK:rsi_overbought": true,
   "INDF.JK:sell_target": true,
   "ISAT.JK:golden_cross": true,
-  "JPFA.JK:sell_target": true,
+  "JPFA.JK:sell_target": false,
   "MAPA.JK:sell_target": true,
   "MAPA.JK:volatility": false,
   "MAPI.JK:rsi_overbought": true,
