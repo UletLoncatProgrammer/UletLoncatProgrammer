@@ -1,4 +1,5 @@
 {
+  "ADMR.JK:volatility": true,
   "ARTO.JK:volatility": true,
   "ASII.JK:golden_cross": false,
   "BBCA.JK:buy_target": false,
@@ -9,9 +10,9 @@
   "GOTO.JK:buy_target": false,
   "GOTO.JK:sell_target": false,
   "INCO.JK:sell_target": true,
-  "INCO.JK:volatility": false,
+  "INCO.JK:volatility": true,
   "INDF.JK:rsi_overbought": true,
-  "INDF.JK:sell_target": false,
+  "INDF.JK:sell_target": true,
   "ISAT.JK:golden_cross": false,
   "JPFA.JK:golden_cross": true,
   "JPFA.JK:sell_target": false,
@@ -30,7 +31,8 @@
   "TLKM.JK:golden_cross": false,
   "TPIA.JK:golden_cross": false,
   "TPIA.JK:volatility": false,
+  "UNVR.JK:sell_target": true,
   "WIIM.JK:golden_cross": false,
-  "WIIM.JK:sell_target": false,
+  "WIIM.JK:sell_target": true,
   "WIIM.JK:volatility": false
 }
