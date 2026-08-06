@@ -26,7 +26,7 @@
   "ISAT.JK:sell_target": false,
   "JPFA.JK:golden_cross": false,
   "JPFA.JK:sell_target": false,
-  "KLBF.JK:sell_target": false,
+  "KLBF.JK:sell_target": true,
   "KLBF.JK:volatility": false,
   "MAPA.JK:sell_target": false,
   "MAPA.JK:volatility": false,
