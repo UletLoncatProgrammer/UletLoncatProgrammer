@@ -35,7 +35,7 @@
   "MAPI.JK:rsi_overbought": false,
   "MAPI.JK:sell_target": false,
   "MAPI.JK:volatility": false,
-  "MDKA.JK:sell_target": false,
+  "MDKA.JK:sell_target": true,
   "MDKA.JK:volatility": false,
   "MIKA.JK:sell_target": true,
   "MIKA.JK:volatility": false,
