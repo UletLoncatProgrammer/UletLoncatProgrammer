@@ -38,7 +38,7 @@
   "MDKA.JK:sell_target": false,
   "MDKA.JK:volatility": false,
   "MIKA.JK:sell_target": true,
-  "MIKA.JK:volatility": true,
+  "MIKA.JK:volatility": false,
   "MYOR.JK:buy_target": false,
   "NISP.JK:golden_cross": false,
   "PGAS.JK:golden_cross": true,
