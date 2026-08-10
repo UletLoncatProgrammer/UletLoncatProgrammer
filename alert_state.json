@@ -13,7 +13,7 @@
   "BSDE.JK:sell_target": false,
   "BUKA.JK:golden_cross": false,
   "CPIN.JK:sell_target": false,
-  "CTRA.JK:sell_target": false,
+  "CTRA.JK:sell_target": true,
   "CTRA.JK:volatility": false,
   "GOTO.JK:buy_target": false,
   "GOTO.JK:sell_target": false,
