@@ -18,7 +18,7 @@
   "CTRA.JK:volatility": false,
   "GOTO.JK:buy_target": false,
   "GOTO.JK:sell_target": false,
-  "ICBP.JK:rsi_overbought": true,
+  "ICBP.JK:rsi_overbought": false,
   "ICBP.JK:sell_target": false,
   "INCO.JK:sell_target": false,
   "INCO.JK:volatility": false,
