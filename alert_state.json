@@ -22,7 +22,7 @@
   "ICBP.JK:sell_target": false,
   "INCO.JK:sell_target": false,
   "INCO.JK:volatility": false,
-  "INDF.JK:rsi_overbought": true,
+  "INDF.JK:rsi_overbought": false,
   "INDF.JK:sell_target": false,
   "ISAT.JK:golden_cross": false,
   "ISAT.JK:sell_target": true,
