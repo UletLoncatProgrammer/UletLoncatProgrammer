@@ -12,6 +12,7 @@
   "BBRI.JK:golden_cross": false,
   "BREN.JK:volatility": true,
   "BRIS.JK:golden_cross": false,
+  "BRPT.JK:volatility": true,
   "BSDE.JK:golden_cross": false,
   "BSDE.JK:sell_target": false,
   "BUKA.JK:golden_cross": false,
