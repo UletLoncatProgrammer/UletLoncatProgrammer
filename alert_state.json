@@ -40,7 +40,7 @@
   "ITMG.JK:sell_target": false,
   "JPFA.JK:golden_cross": false,
   "JPFA.JK:rsi_overbought": true,
-  "JPFA.JK:sell_target": true,
+  "JPFA.JK:sell_target": false,
   "KLBF.JK:golden_cross": false,
   "KLBF.JK:sell_target": false,
   "KLBF.JK:volatility": false,
