@@ -1,5 +1,5 @@
 {
-  "ADMR.JK:sell_target": true,
+  "ADMR.JK:sell_target": false,
   "ADMR.JK:volatility": false,
   "AMRT.JK:death_cross": false,
   "AMRT.JK:volatility": false,
@@ -62,6 +62,7 @@
   "SMGR.JK:sell_target": false,
   "TLKM.JK:golden_cross": false,
   "TOWR.JK:buy_target": false,
+  "TOWR.JK:volatility": true,
   "TPIA.JK:golden_cross": false,
   "TPIA.JK:volatility": false,
   "UNVR.JK:sell_target": false,
