@@ -38,7 +38,7 @@
   "ISAT.JK:golden_cross": false,
   "ISAT.JK:rsi_overbought": true,
   "ISAT.JK:sell_target": true,
-  "ISAT.JK:volatility": false,
+  "ISAT.JK:volatility": true,
   "ITMG.JK:rsi_overbought": false,
   "ITMG.JK:sell_target": false,
   "JPFA.JK:golden_cross": false,
