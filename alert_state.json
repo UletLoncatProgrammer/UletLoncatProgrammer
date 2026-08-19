@@ -68,7 +68,7 @@
   "SMRA.JK:sell_target": false,
   "TLKM.JK:golden_cross": false,
   "TOWR.JK:buy_target": false,
-  "TOWR.JK:sell_target": true,
+  "TOWR.JK:sell_target": false,
   "TOWR.JK:volatility": false,
   "TPIA.JK:golden_cross": false,
   "TPIA.JK:volatility": false,
