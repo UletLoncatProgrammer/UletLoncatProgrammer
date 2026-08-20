@@ -57,7 +57,7 @@
   "MAPI.JK:volatility": false,
   "MDKA.JK:sell_target": false,
   "MDKA.JK:volatility": false,
-  "MEDC.JK:sell_target": false,
+  "MEDC.JK:sell_target": true,
   "MEDC.JK:volatility": false,
   "MIKA.JK:sell_target": false,
   "MIKA.JK:volatility": false,
