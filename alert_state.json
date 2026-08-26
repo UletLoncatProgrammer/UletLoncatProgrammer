@@ -69,7 +69,7 @@
   "NISP.JK:golden_cross": false,
   "PGAS.JK:golden_cross": false,
   "PGAS.JK:sell_target": false,
-  "PTBA.JK:sell_target": false,
+  "PTBA.JK:sell_target": true,
   "PWON.JK:sell_target": false,
   "PWON.JK:volatility": false,
   "SIDO.JK:buy_target": false,
