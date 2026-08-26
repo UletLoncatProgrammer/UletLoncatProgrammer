@@ -26,7 +26,7 @@
   "BSDE.JK:volatility": false,
   "BUKA.JK:buy_target": true,
   "BUKA.JK:golden_cross": false,
-  "BUKA.JK:volatility": false,
+  "BUKA.JK:volatility": true,
   "CPIN.JK:buy_target": false,
   "CPIN.JK:sell_target": false,
   "CTRA.JK:sell_target": false,
