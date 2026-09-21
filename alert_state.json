@@ -1,4 +1,6 @@
 {
+  "ACES.JK:buy_target": true,
+  "ACES.JK:death_cross": true,
   "ADMR.JK:buy_target": false,
   "ADMR.JK:sell_target": false,
   "ADMR.JK:volatility": false,
@@ -16,7 +18,7 @@
   "AMRT.JK:volatility": false,
   "ANTM.JK:sell_target": false,
   "ANTM.JK:volatility": false,
-  "ARTO.JK:buy_target": false,
+  "ARTO.JK:buy_target": true,
   "ARTO.JK:death_cross": false,
   "ARTO.JK:volatility": false,
   "ASII.JK:buy_target": false,
@@ -62,7 +64,7 @@
   "CPIN.JK:golden_cross": true,
   "CPIN.JK:sell_target": false,
   "CPIN.JK:volatility": false,
-  "CTRA.JK:buy_target": false,
+  "CTRA.JK:buy_target": true,
   "CTRA.JK:sell_target": false,
   "CTRA.JK:volatility": false,
   "EXCL.JK:buy_target": true,
@@ -128,7 +130,7 @@
   "SMGR.JK:golden_cross": false,
   "SMGR.JK:sell_target": false,
   "SMGR.JK:volatility": false,
-  "SMRA.JK:buy_target": false,
+  "SMRA.JK:buy_target": true,
   "SMRA.JK:death_cross": false,
   "SMRA.JK:rsi_oversold": true,
   "SMRA.JK:sell_target": false,
@@ -163,5 +165,5 @@
   "WIIM.JK:rsi_overbought": false,
   "WIIM.JK:rsi_oversold": false,
   "WIIM.JK:sell_target": false,
-  "WIIM.JK:volatility": false
+  "WIIM.JK:volatility": true
 }
