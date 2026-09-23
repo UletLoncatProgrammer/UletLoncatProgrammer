@@ -48,12 +48,12 @@
   "BRIS.JK:buy_target": false,
   "BRIS.JK:death_cross": false,
   "BRIS.JK:golden_cross": false,
-  "BRIS.JK:rsi_oversold": true,
+  "BRIS.JK:rsi_oversold": false,
   "BRPT.JK:buy_target": false,
   "BRPT.JK:death_cross": false,
   "BRPT.JK:rsi_oversold": false,
   "BRPT.JK:volatility": false,
-  "BSDE.JK:buy_target": true,
+  "BSDE.JK:buy_target": false,
   "BSDE.JK:golden_cross": false,
   "BSDE.JK:rsi_overbought": false,
   "BSDE.JK:sell_target": false,
@@ -170,5 +170,5 @@
   "WIIM.JK:rsi_overbought": false,
   "WIIM.JK:rsi_oversold": false,
   "WIIM.JK:sell_target": false,
-  "WIIM.JK:volatility": false
+  "WIIM.JK:volatility": true
 }
