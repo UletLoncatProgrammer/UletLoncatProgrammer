@@ -24,7 +24,7 @@
   "ARTO.JK:buy_target": false,
   "ARTO.JK:death_cross": false,
   "ARTO.JK:rsi_oversold": false,
-  "ARTO.JK:volatility": false,
+  "ARTO.JK:volatility": true,
   "ASII.JK:buy_target": false,
   "ASII.JK:death_cross": false,
   "ASII.JK:golden_cross": false,
@@ -212,5 +212,5 @@
   "WIIM.JK:rsi_overbought": false,
   "WIIM.JK:rsi_oversold": false,
   "WIIM.JK:sell_target": false,
-  "WIIM.JK:volatility": false
+  "WIIM.JK:volatility": true
 }
